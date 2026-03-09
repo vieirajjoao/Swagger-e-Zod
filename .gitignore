@@ -2,6 +2,7 @@
 # Nunca enviar a pasta node_modules (muito pesada e gerada pelo npm install)
 node_modules/
 jspm_packages/
+package-lock.json
 
 # --- Build / Saída do TypeScript ---
 # Ignora a pasta onde o código compilado (JS) é gerado

@@ -4,7 +4,8 @@
   "description": "Projeto para prática de Requisitos e Documentação",
   "main": "server.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "tsx watch server.ts"
   },
   "dependencies": {
     "express": "^4.19.2",
